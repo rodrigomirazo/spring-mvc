@@ -1,10 +1,4 @@
-# thd-project
+# thd-project Spring mvc
 
-## Exercise August 20
+## Please find the spring mvc fully working
 
-#### Create a:
-##### Result Set Metadata
-##### Database Metadata Interface
-##### Callable Statement
-##### Transaction Management
-##### Batch Processing
