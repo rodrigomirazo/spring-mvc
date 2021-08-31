@@ -25,6 +25,10 @@ public class UserService {
         return userRepository.findByUsername(username);
     }
 
+    public List<TraineeUser> getByCompanyId(String companyId) {
+        return userRepository.findByCompanyId(companyId);
+    }
+
     public TraineeUser save(TraineeUser traineeUser) {
         return userRepository.save(traineeUser);
     }

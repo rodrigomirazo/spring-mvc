@@ -16,6 +16,8 @@ public class TraineeUser {
     private String name;
     @Column(name = "lastname")
     private String lastname;
+    @Column(name = "company_id")
+    private String companyId;
 
     public TraineeUser() {
     }
@@ -53,6 +55,15 @@ public class TraineeUser {
 
     public TraineeUser setLastname(String lastname) {
         this.lastname = lastname;
+        return this;
+    }
+
+    public String getCompanyId() {
+        return companyId;
+    }
+
+    public TraineeUser setCompanyId(String companyId) {
+        this.companyId = companyId;
         return this;
     }
 }
